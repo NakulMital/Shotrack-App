@@ -14,7 +14,7 @@ class Screen{
         backGround.position(0,0);
         console.log("screen has been created"); 
         var logo = createImg(
-            '../Images/logo.png',
+            '../Images/logo.PNG',
             'Logo'
           );
         logo.parent(backGround);
@@ -65,7 +65,7 @@ class Screen{
         kobe.hide();
         button2.hide();
         var court = createImg(
-          '../Images/Court.png',
+          '../Images/Court.PNG',
           'Court'
         );
         court.position(width/2-280, height/2-5);
@@ -80,7 +80,7 @@ class Screen{
         var miss = createElement('h2', "M I S S");
         miss.position(width/2+120,height/2-180);
         var makeButton = createImg(
-          '../Images/makeButton.png',
+          '../Images/makeButton.PNG',
           'makeButton'
         );
         makeButton.parent(backGround);
@@ -88,7 +88,7 @@ class Screen{
         makeButton.id("makeButton");
         makeButton.mouseClicked(function () {
           makeImg = createImg(
-            '../Images/circle2.png',
+            '../Images/circle2.PNG',
             'makeImg'
           );
           makeImg.position(x-13,y-13);
@@ -96,7 +96,7 @@ class Screen{
         });
 
         var missButton = createImg(
-          '../Images/missedButton.png',
+          '../Images/missedButton.PNG',
           'missedButton'
         );
         missButton.parent(backGround);
@@ -104,7 +104,7 @@ class Screen{
         missButton.id("missButton");
         missButton.mouseClicked(function () {
           missImg = createImg(
-            '../Images/cross.png',
+            '../Images/cross.PNG',
             'missImg'
           );
           missImg.position(x-15,y-15);
